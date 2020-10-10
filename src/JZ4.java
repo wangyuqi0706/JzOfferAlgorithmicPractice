@@ -50,7 +50,7 @@ public class JZ4 {
         JZ4 solution = new JZ4();
         int[] pre = {1, 2, 3, 4, 5, 6, 7};
         int[] in = {3, 2, 4, 1, 6, 5, 7};
-        var result = solution.reConstructBinaryTree(pre, in);
+        TreeNode result = solution.reConstructBinaryTree(pre, in);
         System.out.println(result);
     }
 }

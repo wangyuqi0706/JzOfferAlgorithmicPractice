@@ -35,7 +35,7 @@ public class JZ24 {
         JZ4 solution = new JZ4();
         int[] pre = {1, 2, 9, 4, 5, 6, 7};
         int[] in = {9, 2, 4, 1, 6, 5, 7};
-        var tree = solution.reConstructBinaryTree(pre, in);
+        TreeNode tree = solution.reConstructBinaryTree(pre, in);
         ArrayList<ArrayList<Integer>> res = FindPath(tree, 12);
         System.out.println(res);
     }

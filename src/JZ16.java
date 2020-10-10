@@ -42,7 +42,7 @@ public class JZ16 {
         ListNode list2 = new ListNode(4);
         list2.next = new ListNode(5);
         list2.next.next = new ListNode(6);
-        var result = test.Merge(list1, list2);
+        ListNode result = test.Merge(list1, list2);
         System.out.println(result);
     }
 }

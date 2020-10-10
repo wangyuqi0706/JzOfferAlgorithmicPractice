@@ -38,9 +38,4 @@ public class JZ29 {
         return new ArrayList<>(priorityQueue);
     }
 
-    @Test
-    void test() {
-        var input = GetLeastNumbers_Solution(new int[]{4, 5, 1, 6, 2, 7, 3, 8}, 4);
-        Assertions.assertIterableEquals(input, Arrays.asList(1, 2, 3, 4));
-    }
 }
